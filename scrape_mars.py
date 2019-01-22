@@ -252,8 +252,7 @@ def scrape():
 
         dict = {}
 
-        browser.click_link_by_partial_text('Back')
-
+        browser.visit(url5)
         time.sleep(1)
 
     # Put infos into Library
